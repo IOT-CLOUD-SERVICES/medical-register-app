@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/><script type="text/javascript"></script>
+        <link href="static/css/IOT-new.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Registrarse - IOT Medical Cloud
+        </title>
+    </head>
+    <body>
+        <div id="container">
+            <a href="/"> IOT Medical Cloud </a> | <a href="Inicio"> Inicio </a> | <a href="Ingresar"> Ingresar </a> | <a href="Registrarse"> Registrarse </a> | <a href="HistorialClinico"> Historial Clinico </a>
+
+            <h1> Ingrese sus datos para registrar un nuevo perfil </h1>
+            <form action="processSignup" method="post" name="signup">
+                <label for="nickname">
+                    Apodo
+                </label>
+				<div class="inputs">
+		   <input id="nickname" name="nickname" placeholder="Apodo" size="80" type="text" value=""/>
+                </div>
+
+
+                <label for="email">
+                    Correo
+                </label>
+				<div class="inputs">
+		   <input id="email" name="email" placeholder="Correo" size="80" type="text" value=""/>
+                </div>
+
+
+                <label for="passwd">
+                    Contraseña
+                </label>
+				<div class="inputs">
+                    <input id="passwd" name="passwd" placeholder="Contraseña" size="80" type="password" value=""/>
+                </div>
+
+
+                <label for="confirm">
+                    Repetir contraseña
+                </label>
+				<div class="inputs">
+                    <input id="confirm" name="confirm" placeholder="Confirmar Contraseña" size="80" type="password" value=""/>
+                </div>
+
+
+                <div class="inputs">
+                    <input id="signup_submit" name="signup_submit" type="submit" value="Ingresar"/>
+                </div>
+
+
+            </form>
+        </div>
+    </body>
+</html>

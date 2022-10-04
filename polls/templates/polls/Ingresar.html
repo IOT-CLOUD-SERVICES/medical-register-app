@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/><script type="text/javascript"></script>
+        <link href="static/css/IOT-new.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Ingresar - IOT Medical Cloud
+        </title>
+    </head>
+    <body>
+        <div id="container">
+            <a href="/"> IOT Medical Cloud </a> | <a href="Inicio"> Inicio </a> | <a href="Ingresar"> Ingresar </a> | <a href="Registrarse"> Registrarse </a> | <a href="HistorialClinico"> Historial Clinico </a>
+
+            <h1> Ingrese sus datos para acceder </h1>
+            <form action="processLogin" method="post" name="login">
+                <label for="email">
+                    Correo
+                </label>
+				<div class="inputs">
+                    <input id="email" name="email" placeholder="Correo" size="80" type="text" value=""/>
+                </div>
+                <label for="passwd">
+                    Contraseña
+                </label>
+				<div class="inputs">
+                    <input id="passwd" name="passwd" placeholder="Contraseña" size="80" type="password" value=""/>
+                </div>
+                <label for="remember_me">
+                    <input id="remember_me" name="remember_me" type="checkbox" value="y"/>
+                    Recuérdame
+                </label>
+                <div class="inputs">
+					<input id="login_submit" name="login_submit" type="submit" value="Ingresar"/>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
+
+
+
+
+

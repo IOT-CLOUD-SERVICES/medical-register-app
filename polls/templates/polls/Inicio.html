@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head><script type="text/javascript"></script>
+    <link href="static/css/IOT-new.css" rel="stylesheet" type="text/css"/>
+        <title>Inicio - IOT Medical Cloud</title>
+    </head>
+
+    <body>
+        <div id="container">
+            <a href="/"> IOT Medical Cloud </a> | <a href="Inicio"> Inicio </a> | <a href="Ingresar"> Ingresar </a> | <a href="Registrarse"> Registrarse </a> | <a href="HistorialClinico"> Historial Clinico </a>
+
+            <h1> Hola, ¿deseas publicar algo?</h1>
+
+            <div>
+                <form action="processHome" method="post" name="home">
+                    
+		    <label for="message">Escriba algo para publicar (Entradas generales): </label>
+		    <div class="inputs">
+		    <input id="message" name="message" required="true" placeholder="Mensaje" size="80" maxlength= "128" type="text" value=""/>
+                    </div>
+
+                    <label for="Last posts"> Posts recientes: </label>
+                    <input id="last" name="last" type="hidden" />
+		
+
+		    <div class="inputs">
+                    <input id="post_submit" name="post_submit" type="submit" value="Publicar!"/>
+		    </div>
+
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
